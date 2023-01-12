@@ -70,8 +70,8 @@ body {
 }
 
 .header-logo {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     float: left;
 }
 
@@ -188,7 +188,6 @@ body {
 
 footer {
     margin-top: auto;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -214,4 +213,64 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row div {
+  height: 50vh;
+  width: 50%;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: yellow;
+}
+
+.three {
+  background-color: green;
+}
+
+.four {
+  background-color: blue;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
 }
