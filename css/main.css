@@ -13,6 +13,30 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo-header {
+    margin-right: 100px;
+}
+
+.main {
+    border-bottom: 20px solid rgb(71, 45, 22);
+}
+
+.h-jesse {
+    border-bottom: 20px solid #bb012d;
+}
+
+.h-yannick {
+    border-bottom: 20px solid rgb(241, 191, 53);
+}
+
+.h-liam {
+    border-bottom: 20px solid rgb(0, 174, 255);
+}
+
+.h-enya {
+    border-bottom: 20px solid rgb(0, 125, 42);
+}
+
 .header {
     margin: 0;
     padding: 0;
@@ -21,14 +45,14 @@ body {
     width: auto;
     left: 0;
     right: 0;
-    background-color: #212121;
+    background-color: #000000;
     padding: 16px 32px;
-    border-bottom: 7px solid #00fa0c;
 }
 
 .header-logo {
     height: 150px;
     width: 150px;
+    float: left;
 }
 
 .nav-container {
@@ -45,13 +69,14 @@ body {
 }
 
 .nav-menu a {
-    color: #8e8e8e;
     margin: 0 16px;
     text-align: center;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: none;
     padding: 4px 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
 }
 
 .nav-links {
@@ -63,26 +88,78 @@ body {
     padding: 0px 20px;
 }
 
+.jesse {
+    box-shadow: inset 0 0 0 0 #bb012d;
+    color: #bb012d;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
 .jesse:hover {
-    color: red;
-    border-bottom: 3px solid red;
-    transition: 0.3s;
+    color: #fff;
+    box-shadow: inset 450px 0 0 0 #bb012d;
+    transition: 0.8s;
+}
+
+.jesse-active {
+    color: #fff;
+    box-shadow: inset 450px 0 0 0 #bb012d;
+}
+
+.liam {
+    box-shadow: inset 0 0 0 0 rgb(0, 174, 255);
+    color: rgb(0, 174, 255);
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .liam:hover {
-    color: rgb(0, 174, 255);
-    border-bottom: 3px solid rgb(0, 174, 255);
-    transition: 0.3s;
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 rgb(0, 174, 255);
+    transition: 0.8s;
+}
+
+.liam-active {
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 rgb(0, 174, 255);
+}
+
+.yannick {
+    box-shadow: inset 0 0 0 0 rgb(241, 191, 53);
+    color: rgb(241, 191, 53);
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .yannick:hover {
-    color: rgb(241, 191, 53);
-    border-bottom: 3px solid rgb(241, 191, 53);
-    transition: 0.3s;
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 rgb(241, 191, 53);
+    transition: 0.8s;
+}
+
+.yannick-active {
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 rgb(241, 191, 53);
+}
+
+.enya {
+    box-shadow: inset 0 0 0 0 rgb(0, 125, 42);
+    color: rgb(0, 125, 42);
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .enya:hover {
-    color: rgb(0, 125, 42);
-    border-bottom: 3px solid rgb(0, 125, 42);
-    transition: 0.3s;
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 rgb(0, 125, 42);
+    transition: 0.8s;
+}
+
+.enya-active {
+    color: #fff;
+    box-shadow: inset 250px 0 0 0 rgb(0, 125, 42);
 }
