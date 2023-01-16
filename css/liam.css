@@ -1,69 +1,80 @@
-.choice-container {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62,5;
+    
+}
+
+h1 {
+    font-size: 5.4rem;
+    margin-bottom: 5rem;
+}
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
-    border-radius: 4px;
-    background-color: blue;
-    font-size: 3rem;
-    min-width: 80rem;
-}
-
-.choice-container:hover {
-    cursor: pointer;
-    box-shadow: 0.4rem 0.4rem red, 0.4rem 0.4rem red;
-    transform: scale(1.02);
-    transform: transform 100ms;
-}
-
-.choice-prefix {
-    padding: 2rem 2,5rem;
-
-}
-
-.choice-text {
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
     padding: 2rem;
-    width: 100%;
 }
 
-.correct {
-    background: linear-gradient(32deg, green 0%, green 100%);
-}
-
-.incorrect {
-    background: linear-gradient(32deg, red 0%, red 100%);
-}
-
-#hud {
+.flex-column {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.hud-prefix {
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
     text-align: center;
-    font-size: 2rem;
 }
 
-.hud-main-text {
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    padding: 2rem 0;
+    width: 30rem;
     text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: brown;
+    border-radius: 4px;  
 }
 
-#progressbar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid green;
-    margin-top: 2rem;
-    border-radius: 50px;
-    overflow: hidden;
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0.4rem 0.4rem blue, -0.5rem -0.4rem blue;
+    transition: transform 150ms;
+    transform: scale(1.03);
 }
 
-#progressbarfull {
-    height: 100%;
-    background: green;
-    width: 0%;
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
-    }
+#hs-btn {
+    background-color: blue;
 }
+
+#hs-btn:hover {
+    box-shadow: 0.4rem 0.4rem red, -0.5rem -0.4rem red;
+} 
