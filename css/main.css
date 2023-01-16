@@ -216,18 +216,16 @@ footer {
 
 .parent {
   display: flex;
-  width: 100vw;
+  width: auto;
   height: 100vh;
 }
 
 .child-box1 {
-  background: cyan;
   height: 50%;
   width: 50%;
   transition: all 1s ease;
 }
 .child-box2 {
-  background: orange;
   height: 50%;
   width: 50%;
   transition: all 1s ease;
@@ -237,7 +235,20 @@ footer {
 }
 
 .child-box1 img {
-    width: 100%;
-    height: 100%;
+    width: 1000px;
+    height: auto;
     object-fit: cover;
+
 }  
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div1 { grid-area: 1 / 2 / 2 / 3; }
+    .div1 { grid-area: 2 / 1 / 3 / 2; }
+    .div1s { grid-area: 2 / 2 / 3 / 3; } 
