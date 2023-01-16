@@ -84,7 +84,6 @@ body {
 
 .nav-menu {
     justify-content: flex-end;
-    margin: 0 -16px;
     float: right;
 }
 
@@ -92,9 +91,9 @@ body {
     margin: 0 16px;
     text-align: center;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 30px;
     text-decoration: none;
-    padding: 4px 16px;
+    padding: 4px 9px;
     line-height: 1.5;
     text-transform: uppercase;
 }
