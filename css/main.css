@@ -233,7 +233,11 @@ footer {
     width: 1000px;
     height: auto;
     object-fit: cover;
-}  
+} 
+
+.child-box1 a {
+    position: relative;
+}
 
 .parent {
     display: grid;
@@ -265,10 +269,15 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 566px;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008bba4a;
+    background-color: #008CBA;
+}
+
+.child {
+    padding: 10px;
 }
 
 .child-box1:hover .overlay {
