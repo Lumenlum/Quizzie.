@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Quizzie</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/Enya.css">
+</head>
+<body>
+    <header class="header h-liam">
+        <div class="nav-container">
+            <div class="logo-header">
+                <a href="../index.html">
+                    <img class="header-logo" src="../img/Q_logo.jpg" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a class="jesse" href="../Jesse.html">Red Dead 2</a></li>
+                        <li><a class="liam" href="../Liam.html">Subnautica</a></li>
+                        <li><a class="yannick" href="../Yannick.html">Elden ring</a></li>
+                        <li><a class="enya enya-active" href="../Enya.html">Valheim</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+        <div class="container">
+            <div id="game" class="justify-center flex-column">
+                <div id="hud">
+                    <div class="hud-item">
+                        <p id="progresstext" class="hud-prefix">
+                            Quesstion
+                        </p>
+                        <div id="progressbar">
+                            <div id="progressbarfull"></div>
+                        </div>
+                    </div>
+                    <div class="hud-item">
+                        <p class="hud-prefix">
+                            Score
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                            0
+                        </h1>
+                    </div>
+                </div>
+                <h2 id="question">what is the answer?</h2>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <p class="choice-text" data-number="4">Choice 4</p>
+                </div>
+            </div>
+        </div>
+    <script src="../js/Enya.js"></script>
+    <footer>
+        <div class="footer-bottom f-liam">
+            <p>copyright &copy;2022 Website made by:<span> Enya, Jesse, Liam & Yannick</span><br></p>
+        </div>
+    </footer>
+</body>
+</html>
