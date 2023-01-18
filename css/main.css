@@ -197,7 +197,7 @@ body {
 /* FOOTER */
 
 footer {
-    margin-top: auto;
+    margin-top: 40px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -247,7 +247,6 @@ footer {
 .parent {
     padding-left: 16px;
     padding-right: 16px;
-    width: 100%;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
