@@ -245,6 +245,8 @@ footer {
 }
 
 .parent {
+    padding-left: 16px;
+    padding-right: 16px;
     width: 100%;
     position: relative;
     display: grid;
