@@ -265,14 +265,14 @@ footer {
 }
 
 .overlay {
-    margin-top: -57vh;
+    margin-top: -545px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     height: 560px;
-    width: 100%;
+    width: 99.51%;
     opacity: 0;
     transition: .5s ease;
 }
