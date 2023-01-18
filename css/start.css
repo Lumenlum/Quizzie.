@@ -81,9 +81,6 @@ h2 {
     box-shadow: 0.4rem 0.4rem rgb(175, 141, 45), -0.5rem -0.4rem rgb(175, 141, 45);
 } 
 
-<<<<<<< HEAD
-=======
-
 /* Yannick's super geweldige code, text container */
 .text-container {
     display: flex;
@@ -122,4 +119,3 @@ h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
->>>>>>> 658522322ddcc179ed6b251c7c40fd5a911b7f1b
