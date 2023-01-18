@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="icon" type="image/x-icon" href="img/Q_logo.jpg">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vragen.css">
+    <link rel="stylesheet" href="css/start.css">
     <title>Subnautica | Quizzie</title>
 </head>
 <body>
@@ -36,6 +36,16 @@
             <a href="quiz/highscoreLiam.html" id="hs-btn" class="btn">High Scores</a>
         </div>
     </div>
+    <div class="container">
+        <div id="end" class="flex-column flex-center">
+            <h1 id="finalscore">0</h1>
+            <form action="" class="end-form-container"><h2 id="end-text">Put in your name to save your score</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn-score" id="saveScoreBtn" type="submit" onclick="savingHighScore(event)" disabled>Save</button></form>
+            
+        </div>
+    </div>
+    <script src="/js/highscore.js"></script>
     <footer>
         <div class="footer-bottom f-liam">
             <p>copyright &copy;2022 Website made by:<span> Enya, Jesse, Liam & Yannick</span><br></p>
