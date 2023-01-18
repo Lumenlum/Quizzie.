@@ -219,20 +219,16 @@ footer {
     width: auto;
     transition: all 1s ease;
 }
-.child-box2 {
-    height: 50%;
-    width: auto;
-    transition: all 1s ease;
-}
 
 .child-box1:hover {
     transform: scale(1.1);
 }
 
 .child-box1 img {
+    border-radius: 15px;
     width: 1000px;
-    height: auto;
-    object-fit: cover;
+    height: 560px;
+    object-fit: fill;
 } 
 
 .child-box1 a {
@@ -254,7 +250,7 @@ footer {
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -265,17 +261,32 @@ footer {
 }
 
 .overlay {
-    margin-top: -57.4vh;
+    margin-top: -57vh;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 563px;
+    height: 560px;
     width: 99.6%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #ff03034f;
+}
+
+.o-enya {
+    background-color: rgba(0, 125, 42, 0.455);
+}
+
+.o-yannick {
+    background-color: rgb(241, 191, 53, 0.455);
+}
+
+.o-liam {
+    background-color: rgb(0, 174, 255, 0.455);
+}
+
+.o-jesse {
+    background-color: #bb012c6e;
 }
 
 .child {
