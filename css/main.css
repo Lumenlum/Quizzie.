@@ -273,6 +273,10 @@ footer {
     transition: .5s ease;
 }
 
+.o-enya, .o-yannick, .o-jesse, .o-liam {
+    border-radius: 15px;
+}
+
 .o-enya {
     background-color: rgba(0, 125, 42, 0.455);
 }
