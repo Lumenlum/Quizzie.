@@ -52,19 +52,22 @@ h2 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: black;
-    background-color: brown;
     border-radius: 4px;  
 }
 
-.btn:hover {
+.b-yannick{
+    background-color: rgb(241, 191, 53);
+}
+
+.b-yannick:hover {
     cursor: pointer;
-    box-shadow: 0.4rem 0.4rem blue, -0.5rem -0.4rem blue;
+    box-shadow: 0.4rem 0.4rem rgb(175, 141, 45), -0.5rem -0.4rem rgb(175, 141, 45) ;
     transition: transform 150ms;
     transform: scale(1.03);
 }
 
 
-.btn[disabled]:hover {
+.b-yannick[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
@@ -75,7 +78,7 @@ h2 {
 }
 
 #hs-btn:hover {
-    box-shadow: 0.4rem 0.4rem red, -0.5rem -0.4rem red;
+    box-shadow: 0.4rem 0.4rem rgb(175, 141, 45), -0.5rem -0.4rem rgb(175, 141, 45);
 } 
 
 
