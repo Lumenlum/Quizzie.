@@ -60,7 +60,7 @@ getNewQuestion = () => {
 if(availibleQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem('mostRecentScore', score)
 
-    return window.location.assign('../quiz/highscore.html')
+    return window.location.assign('../quiz/highscoreLiam.html')
 }
 
 questionCounter++
