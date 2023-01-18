@@ -12,11 +12,11 @@ let availibleQuestions = 0
 
 let questions = [
     {
-        question: 'what is 1 + 1',
-        choice1: '2',
-        choice2: '4',
-        choice3: '6',
-        choice4: '8',
+        question: 'what do you need to make a scanner',
+        choice1: 'titanium & battery',
+        choice2: 'titaniun & acid shroom',
+        choice3: 'silver & gold',
+        choice4: 'copper & gold',
         answer: 1,
     },
     {
@@ -46,7 +46,7 @@ let questions = [
 
 ]
 
-const SCORE_POINTS = 100
+const SCORE_POINTS = 1
 const MAX_QUESTIONS = 4
 
 startGame = () => {
@@ -60,7 +60,7 @@ getNewQuestion = () => {
 if(availibleQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem('mostRecentScore', score)
 
-    return window.location.assign('../quiz/end.html')
+    return window.location.assign('../quiz/highscoreLiam.html')
 }
 
 questionCounter++
