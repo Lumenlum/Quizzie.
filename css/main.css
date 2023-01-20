@@ -312,3 +312,26 @@ footer {
 .child-box1:hover .overlay {
     opacity: 1;
 }
+
+#background-yannick {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/limgrave.jpg');
+}
+
+#background-enya {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/valeh.jpg');
+}
+
+#background-liam {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/subanur.jpg');
+}
+
+#background-jesse {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/reddead2.png');   
+}
+
+#background-yannick, #background-enya,
+#background-liam, #background-jesse {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

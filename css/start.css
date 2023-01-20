@@ -23,6 +23,9 @@ h2 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
 }
 
 .flex-column {
@@ -145,7 +148,7 @@ h2 {
 .text-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 100px;
 } 
 
 .t-img {
@@ -161,6 +164,10 @@ h2 {
     padding: 10px;
     float: left;
     background-color: white;
+}
+
+.text-1 p {
+    padding-bottom: 10px;
 }
 
 #right { 
