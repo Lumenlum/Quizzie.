@@ -67,10 +67,34 @@ let questions = [
         choice4: 'After The Shattering, rot began to consume Caelid without reasony',
         answer: 1,
     },
+    {
+        question: 'Who is the Prince of Death?',
+        choice1: 'Mohg, Lord of Blood',
+        choice2: 'Rykard, Lord of Blasphemy',
+        choice3: 'Morgott, the Omen King',
+        choice4: 'Godwyn, the Golden',
+        answer: 4,
+    },
+    {
+        question: 'Who led The Long March of the Tarnished?',
+        choice1: 'Godfrey, First Elden Lord',
+        choice2: 'General Rahdahn',
+        choice3: 'Radagon of the Golden Order',
+        choice4: 'Godwyn, the Golden',
+        answer: 1,
+    },
+    {
+        question: 'When the player starts the game, there is no active formal Elden Lord. There have been at least two before the events in this game that we know of. Who is one of them?',
+        choice1: 'Margit, the Fell Omen',
+        choice2: 'Dragonlord Placidusax',
+        choice3: 'Lichdragon Fortisaxx',
+        choice4: 'Morgott, the Omen King',
+        answer: 2,
+    },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 7
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
