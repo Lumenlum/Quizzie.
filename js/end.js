@@ -11,7 +11,7 @@ username.addEventListener('keyup', () => {
     savScoreBtn.disabled = !username.value
 })
 
-savingHighScore = e => {
+saveHighScore = e => {
     e.preventDefault()
 
     const score = {
