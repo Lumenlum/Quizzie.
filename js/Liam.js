@@ -20,20 +20,68 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'what is 2 + 2',
-        choice1: '2',
-        choice2: '4',
-        choice3: '6',
-        choice4: '8',
+        question: 'what is the main characters name',
+        choice1: 'john',
+        choice2: 'ryley',
+        choice3: 'robert',
+        choice4: 'sam',
         answer: 2,
     },
     {
-        question: 'what is 4 + 4',
+        question: 'what leviathan is the biggest out of these options',
+        choice1: 'reaper leviathan',
+        choice2: 'sea dragon leviathan',
+        choice3: 'ghost leviathan',
+        choice4: 'sea emperor leviathan',
+        answer: 4,
+    },
+    {
+        question: 'what is the name of the alien race',
+        choice1: 'precursors',
+        choice2: 'advents',
+        choice3: 'calamarains',
+        choice4: 'kaaliums',
+        answer: 1,
+    },
+    {
+        question: 'what is the name of the planet in subnautica',
+        choice1: 'Kepler-16b',
+        choice2: 'GJ 1214b',
+        choice3: '4546B',
+        choice4: 'HD 189733b',
+        answer: 3,
+    },
+    {
+        question: 'what is the name of the starting sector in subnautica',
+        choice1: 'safe shallows',
+        choice2: 'sector zero',
+        choice3: 'mushroom forest',
+        choice4: 'blood kelp zone',
+        answer: 1,
+    },
+    {
+        question: 'what is the name of the crashed ship',
+        choice1: 'sunbeam',
+        choice2: 'aurora',
+        choice3: 'mercury II',
+        choice4: 'degasi',
+        answer: 2,
+    },
+    {
+        question: 'what is 3 + 3',
         choice1: '2',
         choice2: '4',
         choice3: '6',
         choice4: '8',
-        answer: 4,
+        answer: 3,
+    },
+    {
+        question: 'what is 3 + 3',
+        choice1: '2',
+        choice2: '4',
+        choice3: '6',
+        choice4: '8',
+        answer: 3,
     },
     {
         question: 'what is 3 + 3',
@@ -47,7 +95,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 1
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
