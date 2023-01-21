@@ -23,7 +23,7 @@ let questions = [
         question: 'What animal represents Godfrey, the first Elden Lord?',
         choice1: 'Stormhawk',
         choice2: 'Lion',
-        choice3: 'Wold',
+        choice3: 'Wolf',
         choice4: 'Dog(turtle)',
         answer: 2,
     },
