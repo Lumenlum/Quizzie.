@@ -16,7 +16,7 @@ body {
 }
 
 .body {
-    background-color: grey;
+    background-color: rgb(36, 36, 36);
 }
 
 .logo-header {
@@ -40,6 +40,10 @@ body {
     border-top: 20px solid #bb012d;
 }
 
+.i-jesse {
+    border: 2px solid #bb012d;
+}
+
 .h-yannick {
     border-bottom: 20px solid rgb(241, 191, 53);
 }
@@ -48,12 +52,20 @@ body {
     border-top: 20px solid rgb(241, 191, 53);
 }
 
+.i-yannick {
+    border: 2px solid rgb(241, 191, 53);
+}
+
 .h-liam {
     border-bottom: 20px solid rgb(0, 174, 255);
 }
 
 .f-liam {
     border-top: 20px solid rgb(0, 174, 255);
+}
+
+.i-liam {
+    border: 2px solid rgb(0, 174, 255);
 }
 
 .h-enya {
