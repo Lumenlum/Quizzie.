@@ -16,7 +16,7 @@ body {
 }
 
 .body {
-    background-color: grey;
+    background-color: rgb(36, 36, 36);
 }
 
 .logo-header {
@@ -40,6 +40,10 @@ body {
     border-top: 20px solid #bb012d;
 }
 
+.i-jesse {
+    border: 2px solid #bb012d;
+}
+
 .h-yannick {
     border-bottom: 20px solid rgb(241, 191, 53);
 }
@@ -48,12 +52,20 @@ body {
     border-top: 20px solid rgb(241, 191, 53);
 }
 
+.i-yannick {
+    border: 2px solid rgb(241, 191, 53);
+}
+
 .h-liam {
     border-bottom: 20px solid rgb(0, 174, 255);
 }
 
 .f-liam {
     border-top: 20px solid rgb(0, 174, 255);
+}
+
+.i-liam {
+    border: 2px solid rgb(0, 174, 255);
 }
 
 .h-enya {
@@ -311,4 +323,27 @@ footer {
 
 .child-box1:hover .overlay {
     opacity: 1;
+}
+
+#background-yannick {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/limgrave.jpg');
+}
+
+#background-enya {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/valeh.jpg');
+}
+
+#background-liam {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/subanur.jpg');
+}
+
+#background-jesse {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/reddead2.png');   
+}
+
+#background-yannick, #background-enya,
+#background-liam, #background-jesse {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

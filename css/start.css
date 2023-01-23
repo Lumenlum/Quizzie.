@@ -23,6 +23,9 @@ h2 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
 }
 
 .flex-column {
@@ -55,37 +58,97 @@ h2 {
     border-radius: 4px;  
 }
 
-.b-yannick{
+.b-yannick {
     background-color: rgb(241, 191, 53);
 }
 
 .b-yannick:hover {
-    cursor: pointer;
     box-shadow: 0.4rem 0.4rem rgb(175, 141, 45), -0.5rem -0.4rem rgb(175, 141, 45) ;
+}
+
+.b-enya {
+    background-color: rgb(0, 125, 42);
+}
+
+.b-enya:hover {
+    box-shadow: 0.4rem 0.4rem rgb(1, 82, 28), -0.5rem -0.4rem rgb(1, 82, 28);
+}
+
+.b-liam {
+    background-color: rgb(0, 174, 255);
+}
+
+.b-liam:hover {
+    box-shadow: 0.4rem 0.4rem rgb(0, 122, 179), -0.5rem -0.4rem rgb(0, 122, 179);
+}
+
+.b-jesse {
+    background-color: #bb012d;
+}
+
+.b-jesse:hover {
+    box-shadow: 0.4rem 0.4rem #650018, -0.5rem -0.4rem #650018;
+}
+
+.b-yannick:hover, .b-enya:hover,
+.b-liam:hover, .b-jesse:hover {
+    cursor: pointer;
     transition: transform 150ms;
     transform: scale(1.03);
 }
 
-
-.b-yannick[disabled]:hover {
+.b-yannick[disabled]:hover, .b-enya[disabled]:hover
+.b-liam[disabled]:hover, .b-jesse[disabled]:hover  {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
 }
 
-#hs-btn {
-    background-color: blue;
+#hs-yannick:hover, .b-yannick:hover,
+#hs-enya:hover, .b-enya:hover,
+#hs-liam:hover, .b-liam:hover,
+#hs-jesse:hover, .b-jesse:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
 }
 
-#hs-btn:hover {
+#hs-yannick {
+    background-color: rgb(241, 191, 53)
+}
+
+#hs-yannick:hover {
     box-shadow: 0.4rem 0.4rem rgb(175, 141, 45), -0.5rem -0.4rem rgb(175, 141, 45);
-} 
+}
+
+#hs-enya {
+    background-color: rgb(0, 125, 42);
+}
+
+#hs-enya:hover {
+    box-shadow: 0.4rem 0.4rem rgb(1, 82, 28), -0.5rem -0.4rem rgb(1, 82, 28);
+}
+
+#hs-liam {
+    background-color:  rgb(0, 174,255);
+}
+
+#hs-liam:hover {
+    box-shadow: 0.4rem 0.4rem rgb(0, 122, 179), -0.5rem -0.4rem rgb(0, 122, 179);
+}
+
+#hs-jesse {
+    background-color: #bb012d;
+}
+
+#hs-jesse:hover {
+    box-shadow: 0.4rem 0.4rem #650018, -0.5rem -0.4rem #650018;
+}
 
 /* Yannick's super geweldige code, text container */
 .text-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 100px;
 } 
 
 .t-img {
@@ -103,6 +166,10 @@ h2 {
     background-color: white;
 }
 
+.text-1 p {
+    padding-bottom: 10px;
+}
+
 #right { 
     float: right; 
     margin: 10px;
@@ -118,4 +185,39 @@ h2 {
 .text-1 h3 {
     font-size: 40px;
     margin-bottom: 20px;
+}
+/*save spull */
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    pad: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+}
+
+input::placeholder {
+    color: aqua;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+}
+
+#savedScoreBtn {
+    border: none;
 }
