@@ -43,6 +43,14 @@ let questions = [
         choice4: '8',
         answer: 3,
     },
+    {
+        question: 'what is 5 + 1',
+        choice1: '2',
+        choice2: '4',
+        choice3: '6',
+        choice4: '8',
+        answer: 3,
+    },
 
 ]
 

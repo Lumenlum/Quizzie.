@@ -33,10 +33,22 @@
     <div class="container">
         <div id="highscores" class="flex-center flex-column">
             <h1 id="finalscore">leaderbord</h1>
-            <a href="../Enya.html" class="btn b-enya">Play</a>
+            <ul id="highscorelist"></ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="end" class="flex-column flex-center">
+            <h1 id="finalscore"></h1>
+            <form action="" class="end-form-container">
+                <h2 id="end-text">Put in your name to save your score</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn b-enya" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+                <a href="../Enya.html" class="btn b-enya">go to start</a>
+            </form>  
         </div>
     </div>
     <script src="../js/Enya.js"></script>
+    <script src="../js/Enyaend.js"></script>
     <footer>
         <div class="footer-bottom f-enya">
             <p>copyright &copy;2022 Website made by:<span> Enya, Jesse, Liam & Yannick</span><br></p>
