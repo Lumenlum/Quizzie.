@@ -84,7 +84,7 @@ h2 {
 }
 
 .b-jesse {
-    background-color: var(jesse-main);
+    background-color: var(--jesse-main);
 }
 
 .b-jesse:hover {
@@ -138,7 +138,7 @@ h2 {
 }
 
 #hs-jesse {
-    background-color: var(-jesse-main);
+    background-color: var(--jesse-main);
 }
 
 #hs-jesse:hover {
