@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
-    --enya-main: rgb(0, 125, 42);
-    --enya-dark: rgba(0, 125, 42, 0.455);
-    --enya-hover: rgb(1, 82, 28);
-    --yannick-main: rgb(241, 191, 53);
-    --yannick-dark: rgb(241, 191, 53, 0.455);
+    --enya-main: rgb(177, 52, 15);
+    --enya-dark: rgb(177, 52, 15, 0.455);
+    --enya-hover: rgba(141, 35, 3, 0.908);
+    --yannick-main: rgb(193, 157, 83);
+    --yannick-dark: rgb(193, 157, 83, 0.455);
     --yannick-hover: rgb(175, 141, 45);
     --liam-main: rgb(0, 174, 255);
     --liam-dark: rgb(0, 174, 255, 0.455);
