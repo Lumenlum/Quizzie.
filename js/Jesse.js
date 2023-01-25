@@ -65,7 +65,7 @@ let questions = [
         choice2: '',
         choice3: '',
         choice4: '',
-        answer: 1,
+        answer: 3,
     },
     {
         question: '',
@@ -73,7 +73,7 @@ let questions = [
         choice2: '',
         choice3: '',
         choice4: '',
-        answer: 1,
+        answer: 4,
     },
     {
         question: '',
@@ -81,7 +81,7 @@ let questions = [
         choice2: '',
         choice3: '',
         choice4: '',
-        answer: 1,
+        answer: 2,
     },
     {
         question: '',
@@ -89,7 +89,7 @@ let questions = [
         choice2: '',
         choice3: '',
         choice4: '',
-        answer: 1,
+        answer: 4,
     },
 ]
 
