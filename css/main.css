@@ -363,3 +363,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.background{
+    margin-left: -17vh;
+}
