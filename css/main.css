@@ -105,12 +105,12 @@ body {
     left: 0;
     right: 0;
     background-color: #000000;
-    padding: 16px 32px;
+    padding: 10px 32px;
 }
 
 .header-logo {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     float: left;
 }
 
@@ -346,7 +346,7 @@ footer {
 }
 
 #background-enya {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/valeh.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.75)),url('../img/background_valheim.jpg');
 }
 
 #background-liam {
@@ -362,4 +362,8 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.background{
+    margin-left: -17vh;
 }
