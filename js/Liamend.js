@@ -30,3 +30,4 @@ saveHighScore = e => {
     localStorage.setItem('highScores', JSON.stringify(highscores))
     window.location.assign('../quiz/highscoreLiam.html')
 }
+
