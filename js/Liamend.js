@@ -31,3 +31,5 @@ saveHighScore = e => {
     window.location.assign('../quiz/highscoreLiam.html')
 }
 
+
+
