@@ -15,36 +15,36 @@
 }
 
 .q-yannick {
-    background-color: rgb(241, 191, 53);
+    background-color: var(--yannick-main);
 }
 
 
 .q-yannick:hover {
-    box-shadow: 0.4rem 0.4rem rgb(175, 141, 45);
+    box-shadow: 0.4rem 0.4rem var(--yannick-hover);
 }
 
 .q-enya {
-    background-color: rgb(0, 125, 42);
+    background-color: var(--enya-main);
 }
 
 .q-enya:hover {
-    box-shadow: 0.4rem 0.4rem rgb(1, 82, 28);
+    box-shadow: 0.4rem 0.4rem var(--enya-hover);
 }
 
 .q-liam {
-    background-color: rgb(0, 174, 255);
+    background-color: var(--liam-main);
 }
 
 .q-liam:hover {
-    box-shadow: 0.4rem 0.4rem rgb(0, 122, 179);
+    box-shadow: 0.4rem 0.4rem var(--liam-hover);
 }
 
 .q-jesse {
-    background-color: #bb012d;
+    background-color: var(--jesse-main);
 }
 
 .q-jesse:hover {
-    box-shadow: 0.4rem 0.4rem #650018;
+    box-shadow: 0.4rem 0.4rem var(--jesse-hover);
 }
 
 
