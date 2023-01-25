@@ -47,6 +47,7 @@ h2 {
 }
 
 .btn {
+    border: none;
     font-size: 2.5rem;
     font-weight: 1000;
     padding: 2rem 0;
