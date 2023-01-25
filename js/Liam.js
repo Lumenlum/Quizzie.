@@ -68,11 +68,11 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'what is 3 + 3',
-        choice1: '2',
-        choice2: '4',
-        choice3: '6',
-        choice4: '8',
+        question: 'what is the bladderfish mostly used for',
+        choice1: 'making water',
+        choice2: 'getting air',
+        choice3: 'making air bladder',
+        choice4: 'being food',
         answer: 3,
     },
     {
