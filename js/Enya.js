@@ -12,7 +12,7 @@ let availibleQuestions = 0
 
 let questions = [
     {
-        question: 'Where did he throw hes foes',
+        question: 'Where did Odin throw hes foes',
         choice1: 'tenth world',
         choice2: 'Valhallah',
         choice3: 'hel',
@@ -20,7 +20,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'what did he sent to Midgard',
+        question: 'what did Odin sent to Midgard',
         choice1: 'Lion',
         choice2: 'Wolf',
         choice3: 'Valkyries',
