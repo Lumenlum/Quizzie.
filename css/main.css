@@ -32,6 +32,10 @@ body {
     width: 100%;
 }
 
+#navbar, #logo {
+    transition: 0.4s;
+}
+
 .body {
     background-color: rgb(36, 36, 36);
 }
@@ -248,7 +252,6 @@ footer {
 }
 
 .footer-bottom span {
-    text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
 }
