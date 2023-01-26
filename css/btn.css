@@ -6,11 +6,12 @@
 }
 
 .btn {
-    -webkit-mask-image: url(../img/mask.png);
     mask-image: url(../img/mask.png);
-    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 400px 140px;
-    position: relative;
+    -webkit-mask-image: url(../img/mask.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: 400px 140px;
 }
