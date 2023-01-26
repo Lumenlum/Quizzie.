@@ -4,12 +4,16 @@
     background-repeat: repeat;
     padding-left: 2rem;
     padding-right: 2rem;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
 }
 
 .btn-primary:hover {
     /* background-image: linear-gradient(180deg, #ad28176d, #dd61197e), url(../img/btn-texture.png); */
     background-image: linear-gradient(180deg, var(--yannick-dark), var(--yannick-hover)), url(../img/btn-texture.png);
-
+    background-position: 100% 0;
+    -webkit-transition: all .5 s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .btn {
