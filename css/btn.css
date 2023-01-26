@@ -1,5 +1,6 @@
 .btn-primary {
     background-image: linear-gradient(180deg, #dd61197e, #ad28176d), url(../img/btn-texture.png);
+    /* background-image: linear-gradient(180deg, var(--yannick-btn), var(--yannick-dark)), url(../img/btn-texture.png); */
     background-repeat: repeat;
     padding-left: 2rem;
     padding-right: 2rem;
