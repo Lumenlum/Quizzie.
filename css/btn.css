@@ -1,0 +1,15 @@
+.btn-primary {
+    background-image: linear-gradient(180deg, #dd61197e, #ad28176d), url(../img/btn-texture.png);
+    background-repeat: repeat;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn {
+    -webkit-mask-image: url(../img/mask.png);
+    mask-image: url(../img/mask.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 400px 100px;
+}
