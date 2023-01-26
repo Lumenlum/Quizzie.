@@ -12,20 +12,20 @@ let availibleQuestions = 0
 
 let questions = [
     {
-        question: 'what is 1 + 1',
-        choice1: '2',
-        choice2: '4',
-        choice3: '6',
-        choice4: '8',
+        question: 'Where did he throw hes foes',
+        choice1: 'tenth world',
+        choice2: 'Valhallah',
+        choice3: 'hel',
+        choice4: 'asgard',
         answer: 1,
     },
     {
-        question: 'what is 2 + 2',
-        choice1: '2',
-        choice2: '4',
-        choice3: '6',
-        choice4: '8',
-        answer: 2,
+        question: 'what did he sent to Midgard',
+        choice1: 'Lion',
+        choice2: 'Wolf',
+        choice3: 'Valkyries',
+        choice4: 'Horse',
+        answer: 3,
     },
     {
         question: 'what is 4 + 4',
