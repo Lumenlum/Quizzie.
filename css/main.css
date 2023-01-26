@@ -11,9 +11,9 @@
     --liam-main: rgb(0, 174, 255);
     --liam-dark: rgb(0, 174, 255, 0.455);
     --liam-hover: rgb(0, 122, 179);
-    --jesse-main: #bb012d;
-    --jesse-dark: #bb012c6e;
-    --jesse-hover: #650018;
+    --jesse-main: rgb(240, 3, 0);
+    --jesse-dark: rgb(240, 3, 0);
+    --jesse-hover: rgb(240, 3, 0);
 }
   
 
