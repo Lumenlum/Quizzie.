@@ -215,9 +215,12 @@ input::placeholder {
 }
 
 #username {
+    height: 3.6rem;
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #end-text {
