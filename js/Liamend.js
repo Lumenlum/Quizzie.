@@ -6,7 +6,7 @@ const mostRecentScore = localStorage.getItem('mostRecentScore')
 const highscores = JSON.parse(localStorage.getItem('highScoresLiam')) || []
 
 finalscore.innerTEXT = mostRecentScore
-
+document.querySelector("#score").innerHTML = localStorage.getItem("LiamScore");
 username.addEventListener('keyup', () => {
     savScoreBtn.disabled = !username.value
 })

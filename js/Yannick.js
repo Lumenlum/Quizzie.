@@ -158,7 +158,7 @@ choice.addEventListener('click', e => {
 incrementScore = num => {
 score +=num
 scoretext.innerText = score
-
+localStorage.setItem("YannickScore", score);
 }
 
 startGame()
