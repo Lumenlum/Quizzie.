@@ -18,6 +18,7 @@ let questions = [
         choice3: 'Maliketh, the Black Blade',
         choice4: 'Morgott, the Elden King',
         answer: 1,
+        imgSrc: '../img/mohg.jpg',
     },
     {
         question: 'What animal represents Godfrey, the first Elden Lord?',
@@ -26,6 +27,7 @@ let questions = [
         choice3: 'Wolf',
         choice4: 'Dog(turtle)',
         answer: 2,
+        imgSrc: '../img/elden_ring.jpg'
     },
     {
         question: 'Who stole a fragment of the Rune of Death?',
@@ -34,6 +36,7 @@ let questions = [
         choice3: 'Rennala, Queen of the Full Moon',
         choice4: 'Ranni, Lunar Princess',
         answer: 4,
+        imgSrc: '../img/Q_logo.jpg'
     },
     {
         question: 'What was the name of Godfrey`s elite group of soldiers?',
@@ -117,6 +120,7 @@ progressbarfull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 const questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
 currentQuestion = availibleQuestions[questionsIndex]
 question.innerText = currentQuestion.question
+document.getElementById("img").src = currentQuestion.imgSrc;
 
 choices.forEach(choice => {
     const number = choice.dataset['number']

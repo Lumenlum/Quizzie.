@@ -9,11 +9,16 @@
 h1 {
     font-size: 5.4rem;
     margin-bottom: 3rem;
-    margin-top: 3rem;
 }
 h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
+}
+
+#hud h2 {
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .container {
@@ -24,8 +29,8 @@ h2 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
     color: white;
 }
 

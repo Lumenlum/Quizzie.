@@ -1,9 +1,10 @@
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
+    margin-bottom: 10px;
+    width: 10%;
     border-radius: 4px;
-    font-size: 3rem;
+    font-size: 31px;
+    min-width: 60rem;
 }
 
 .question-btn {
@@ -53,7 +54,7 @@
 
 
 .choice-prefix {
-    padding: 2rem 2,5rem;
+    padding: 2rem 2.5rem;
 }
 
 .choice-text {
@@ -84,22 +85,30 @@
 }
 
 #progressbar {
-    width: 20rem;
+    width: 99%;
     height: 3rem;
-    border: 0.2rem solid green;
-    margin-top: 2rem;
+    border: 0.2rem solid rgba(224, 225, 223, 0.295);
+    margin-top: 30px;
+    margin-bottom: 50px;
     border-radius: 50px;
     overflow: hidden;
 }
 
 #progressbarfull {
     height: 100%;
-    background: green;
+    background: #4a8051;
     width: 0%;
+    transition: 0.76s;
 }
 
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
     }
+}
+
+.image {
+    margin-left: 1000px;
+    margin-top: -454px;
+    border-radius: 5px;
 }
