@@ -18,7 +18,7 @@ let questions = [
         choice3: 'Maliketh, the Black Blade',
         choice4: 'Morgott, the Elden King',
         answer: 1,
-        imgSrc: '../img/mohg.jpg',
+        imgSrc: '../img/mogh.gif',
     },
     {
         question: 'What animal represents Godfrey, the first Elden Lord?',
@@ -27,7 +27,7 @@ let questions = [
         choice3: 'Wolf',
         choice4: 'Dog(turtle)',
         answer: 2,
-        imgSrc: '../img/elden_ring.jpg'
+        imgSrc: '../img/godfrey.gif'
     },
     {
         question: 'Who stole a fragment of the Rune of Death?',
@@ -36,7 +36,7 @@ let questions = [
         choice3: 'Rennala, Queen of the Full Moon',
         choice4: 'Ranni, Lunar Princess',
         answer: 4,
-        imgSrc: '../img/Q_logo.jpg'
+        imgSrc: '../img/ranni-elden-ring.gif',
     },
     {
         question: 'What was the name of Godfrey`s elite group of soldiers?',
@@ -45,6 +45,7 @@ let questions = [
         choice3: 'The Cruicible Knights',
         choice4: 'The Golden Order',
         answer: 3,
+        imgSrc: '../img/crucible.gif',
     },
     {
         question: 'Who shattered the Elden Ring?',
@@ -53,6 +54,7 @@ let questions = [
         choice3: 'Marika, the Eternal',
         choice4: 'Godfrey, The First Elden Lord',
         answer: 3,
+        imgSrc: '../img/marika.gif',
     },
     {
         question: 'Who challenged the Golden Order?',
@@ -61,6 +63,7 @@ let questions = [
         choice3: 'The Storm Lord of Stormveil',
         choice4: 'All of the above',
         answer: 4,
+        imgSrc: '../img/dragon.gif',
     },
     {
         question: 'Why is Caelid covered in scarlet rot?',
@@ -69,6 +72,7 @@ let questions = [
         choice3: 'Marika cursed the land after Radahn went to war against her',
         choice4: 'After The Shattering, rot began to consume Caelid without reasony',
         answer: 1,
+        imgSrc: '../img/scarlett.gif',
     },
     {
         question: 'Who is the Prince of Death?',
@@ -77,6 +81,7 @@ let questions = [
         choice3: 'Morgott, the Omen King',
         choice4: 'Godwyn, the Golden',
         answer: 4,
+        imgSrc: '../img/godwyn.gif',
     },
     {
         question: 'Who led The Long March of the Tarnished?',
@@ -85,6 +90,7 @@ let questions = [
         choice3: 'Radagon of the Golden Order',
         choice4: 'Godwyn, the Golden',
         answer: 1,
+        imgSrc: '../img/tarnished.gif',
     },
     {
         question: 'When the player starts the game, there is no active formal Elden Lord. There have been at least two before the events in this game that we know of. Who is one of them?',
@@ -93,6 +99,7 @@ let questions = [
         choice3: 'Lichdragon Fortisaxx',
         choice4: 'Morgott, the Omen King',
         answer: 2,
+        imgSrc: '../img/dragonlord.gif',
     },
 ]
 
