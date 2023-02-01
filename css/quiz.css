@@ -85,7 +85,7 @@
 }
 
 #progressbar {
-    width: 99%;
+    width: 80%;
     height: 3rem;
     border: 0.2rem solid rgba(224, 225, 223, 0.295);
     margin-top: 30px;
@@ -111,4 +111,5 @@
     margin-left: 1000px;
     margin-top: -454px;
     border-radius: 5px;
+    width: 40%;
 }

@@ -18,7 +18,7 @@ let questions = [
         choice3: 'Maliketh, the Black Blade',
         choice4: 'Morgott, the Elden King',
         answer: 1,
-        imgSrc: '../img/mohg.jpg',
+        imgSrc: '../img/mohg.jpg', // onder ansewer druk enter en add imgSrc: '../img/naamvanimg",
     },
     {
         question: 'What animal represents Godfrey, the first Elden Lord?',
@@ -120,7 +120,11 @@ progressbarfull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 const questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
 currentQuestion = availibleQuestions[questionsIndex]
 question.innerText = currentQuestion.question
-document.getElementById("img").src = currentQuestion.imgSrc;
+
+
+document.getElementById("img").src = currentQuestion.imgSrc; //n copy deze link in je eigen naam.js
+
+
 
 choices.forEach(choice => {
     const number = choice.dataset['number']
