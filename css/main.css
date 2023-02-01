@@ -426,3 +426,7 @@ footer {
     width: fit-content;
     object-fit: contain;
 }
+
+.hud-score {
+    float:right;
+}

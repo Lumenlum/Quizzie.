@@ -4,7 +4,7 @@ const finalscore = document.querySelector('#finalscore')
 const mostRecentScore = localStorage.getItem('mostRecentScore')
 
 const highscores = JSON.parse(localStorage.getItem('highScores')) || []
-
+document.querySelector("#score").innerHTML = localStorage.getItem("JesseScore");
 finalscore.innerTEXT = mostRecentScore
 
 username.addEventListener('keyup', () => {
