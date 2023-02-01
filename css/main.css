@@ -368,7 +368,7 @@ footer {
 
 .background{
     width: 55vw;
-    padding-bottom: 60px;
+    padding-bottom: 12px;
 }
 
 .valheim {
@@ -420,4 +420,9 @@ footer {
       opacity: 0;
       transform: translateY(46px);
     }
+}
+
+.h-img {
+    width: fit-content;
+    object-fit: contain;
 }
