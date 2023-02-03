@@ -12,15 +12,16 @@ let availibleQuestions = 0
 
 let questions = [
     {
-        question: 'Where did Odin throw hes foes',
-        choice1: 'tenth world',
-        choice2: 'Valhallah',
-        choice3: 'hel',
-        choice4: 'asgard',
+        question: 'When Odin the Allfather created Valheim, which number world was it?',
+        choice1: 'The tenth',
+        choice2: 'The eight',
+        choice3: 'The thirth',
+        choice4: 'The fifth',
         answer: 1,
+        imgSrc: '../img/mogh.gif',
     },
     {
-        question: 'what did Odin sent to Midgard',
+        question: 'What did Odin sent to Midgard',
         choice1: 'Lion',
         choice2: 'Wolf',
         choice3: 'Valkyries',
@@ -28,14 +29,65 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'what did Odin search for?',
+        question: 'What did Odin search for?',
         choice1: 'his enemies',
         choice2: 'warriors',
         choice3: 'a god',
         choice4: 'information',
         answer: 2,
     },
-
+    {
+        question: 'There are five bosses to defeat across the world of Valheim, but which is the third?',
+        choice1: 'Bonemass',
+        choice2: 'The Elder',
+        choice3: 'Moder',
+        choice4: 'Eikthyr',
+        answer: 1,
+    },
+    {
+        question: 'There are many tombstones scattered around Valheim that feature messages written by Vikings of the past. Who is the "Shieldmaiden of the forest"?',
+        choice1: 'Helga',
+        choice2: 'Astrid',
+        choice3: 'Lagertha',
+        choice4: 'Torvi',
+        answer: 2,
+    },
+    {
+        question: 'What is the name of the other warrior who has left tombstone messages scattered around Valheim?',
+        choice1: 'Ragnar',
+        choice2: 'Floki',
+        choice3: 'Ulf',
+        choice4: 'Bjorn',
+        answer: 3,
+    },
+    {
+        question: 'True or False: An Artisan Table is required for a Windmill to function.',
+        choice1: 'True',
+        choice2: 'False',
+        answer: 2,
+    },
+    {
+        question: 'A Dragon Egg can be carried through a portal: True or False?',
+        choice1: 'True',
+        choice2: 'False',
+        answer: 2,
+    },
+    {
+        question: 'What is the name of the Valheim weapon that hits for the most damage?',
+        choice1: 'Frostner',
+        choice2: 'Blackmetal atgeir',
+        choice3: 'Silver sword',
+        choice4: 'Porcupine',
+        answer: 3,
+    },
+    {
+        question: 'Which of the following animals cannot be tamed?',
+        choice1: 'Wolf',
+        choice2: 'Deer',
+        choice3: 'Lox',
+        choice4: 'Boar',
+        answer: 2,
+    },
 ]
 
 const SCORE_POINTS = 1
@@ -62,6 +114,8 @@ progressbarfull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 const questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
 currentQuestion = availibleQuestions[questionsIndex]
 question.innerText = currentQuestion.question
+
+document.getElementById("img").src = currentQuestion.imgSrc; 
 
 choices.forEach(choice => {
     const number = choice.dataset['number']
