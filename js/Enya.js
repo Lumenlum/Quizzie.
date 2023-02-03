@@ -115,7 +115,10 @@ const questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
 currentQuestion = availibleQuestions[questionsIndex]
 question.innerText = currentQuestion.question
 
-document.getElementById("img").src = currentQuestion.imgSrc; 
+
+// document.getElementById("img").src = currentQuestion.imgSrc; //n copy deze link in je eigen naam.js
+
+
 
 choices.forEach(choice => {
     const number = choice.dataset['number']
@@ -152,7 +155,7 @@ choice.addEventListener('click', e => {
 
 incrementScore = num => {
 score +=num
-scoretext.innerText = score;
+scoretext.innerText = score
 localStorage.setItem("EnyaScore", score);
 }
 
