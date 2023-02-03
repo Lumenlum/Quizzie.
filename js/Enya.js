@@ -116,7 +116,7 @@ currentQuestion = availibleQuestions[questionsIndex]
 question.innerText = currentQuestion.question
 
 
-// document.getElementById("img").src = currentQuestion.imgSrc; //n copy deze link in je eigen naam.js
+document.getElementById("img").src = currentQuestion.imgSrc; //n copy deze link in je eigen naam.js
 
 
 
