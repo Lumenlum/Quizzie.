@@ -18,7 +18,7 @@ let questions = [
         choice3: 'The thirth',
         choice4: 'The fifth',
         answer: 1,
-        imgSrc: '../img/mogh.gif',
+        imgSrc: '../img/valheim.gif',
     },
     {
         question: 'What did Odin sent to Midgard',
@@ -27,6 +27,7 @@ let questions = [
         choice3: 'Valkyries',
         choice4: 'Horse',
         answer: 3,
+        imgSrc: '../img/Valkyries.png',
     },
     {
         question: 'What did Odin search for?',
@@ -35,6 +36,7 @@ let questions = [
         choice3: 'a god',
         choice4: 'information',
         answer: 2,
+        imgSrc: '../img/warrior.gif',
     },
     {
         question: 'There are five bosses to defeat across the world of Valheim, but which is the third?',
@@ -43,6 +45,7 @@ let questions = [
         choice3: 'Moder',
         choice4: 'Eikthyr',
         answer: 1,
+        imgSrc: '../img/bonemas.jpg',
     },
     {
         question: 'There are many tombstones scattered around Valheim that feature messages written by Vikings of the past. Who is the "Shieldmaiden of the forest"?',
@@ -51,6 +54,7 @@ let questions = [
         choice3: 'Lagertha',
         choice4: 'Torvi',
         answer: 2,
+        imgSrc: '../img/astrid.jpg',
     },
     {
         question: 'What is the name of the other warrior who has left tombstone messages scattered around Valheim?',
@@ -59,18 +63,21 @@ let questions = [
         choice3: 'Ulf',
         choice4: 'Bjorn',
         answer: 3,
+        imgSrc: '../img/dead.jpg',
     },
     {
         question: 'True or False: An Artisan Table is required for a Windmill to function.',
         choice1: 'True',
         choice2: 'False',
         answer: 2,
+        imgSrc: '../img/table.jpg',
     },
     {
         question: 'A Dragon Egg can be carried through a portal: True or False?',
         choice1: 'True',
         choice2: 'False',
         answer: 2,
+        imgSrc: '../img/dragon.jpg',
     },
     {
         question: 'What is the name of the Valheim weapon that hits for the most damage?',
@@ -79,6 +86,7 @@ let questions = [
         choice3: 'Silver sword',
         choice4: 'Porcupine',
         answer: 3,
+        imgSrc: '../img/zwaard.jpg',
     },
     {
         question: 'Which of the following animals cannot be tamed?',
@@ -87,6 +95,7 @@ let questions = [
         choice3: 'Lox',
         choice4: 'Boar',
         answer: 2,
+        imgSrc: '../img/deer.jpg',
     },
 ]
 
